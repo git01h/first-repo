@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage("Hello") {
+        stage('Hello') {
             steps {
-                echo "welocome to jenkin pieline"
+                echo 'Hello World cup'
             }
         }
-}
+    }
 }
